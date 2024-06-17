@@ -1,0 +1,21 @@
+.nav-p{
+    height: 70px !important;
+    background: rgba(255,255,255,0.5) !important;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.4);
+}
+
+.btn-p{
+    padding: 0.7rem 1.8rem !important;
+    margin: 4px;
+    margin-left: 20px;
+}
+
+.nav-buttons-p{
+    padding: 16px !important;
+    margin-inline: 3px !important;
+    border-radius: 5000px !important;
+    transition: .3s all !important;
+    height: 60px !important;
+}
