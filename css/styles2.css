@@ -19,3 +19,15 @@
     transition: .3s all !important;
     height: 60px !important;
 }
+
+.footer-icons-p{
+    font-family: 'Inter Tight', sans-serif;
+    font-size: 2rem;
+    line-height: 1.3;
+    text-decoration: none;
+    color: #cdf344 !important;
+}
+
+.logo-p{
+    margin-left: 0px !important;
+}
