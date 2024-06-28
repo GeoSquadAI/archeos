@@ -31,3 +31,11 @@
 .logo-p{
     margin-left: 0px !important;
 }
+
+.card-header .sign {
+    transition: transform 0.3s ease;
+}
+
+.card-header[aria-expanded="true"] .sign {
+    transform: rotate(180deg);
+}
