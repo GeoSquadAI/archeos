@@ -620,12 +620,13 @@
         headers.forEach(function(header) {
             header.addEventListener("click", function() {
                 var icon = header.querySelector(".sign i");
-                var isExpanded = header.getAttribute("aria-expanded") === "true";
-                if (isExpanded) {
-                    icon.style.transform = "rotate(0deg)";
-                } else {
-                    icon.style.transform = "rotate(180deg)";
-                }
+                setTimeout(function() {
+                    if (header.getAttribute("aria-expanded") === "true") {
+                        icon.style.transform = "rotate(180deg)";
+                    } else {
+                        icon.style.transform = "rotate(0deg)";
+                    }
+                }, 300); // Adding a slight delay to ensure attribute is updated
             });
         });
     });
