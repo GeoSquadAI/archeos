@@ -36,6 +36,10 @@
     transition: transform 0.3s ease;
 }
 
-.card-header[aria-expanded="true"] .sign {
+.card-header .collapsed .sign i {
+    transform: rotate(0deg);
+}
+
+.card-header:not(.collapsed) .sign i {
     transform: rotate(180deg);
 }
