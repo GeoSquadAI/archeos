@@ -33,3 +33,16 @@
 .logo-p{
     margin-left: 0px !important;
 }
+
+.full-width-section {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.full-width-section .container {
+    width: 95%;
+    max-width: 95%;
+    padding-left: 0;
+    padding-right: 0;
+}
