@@ -1,4 +1,4 @@
-### [archeosai.github.io](https://geosquadai.github.io/archeos)
+### [ARcheos](https://geosquadai.github.io/archeos)
 
 ![archeos](/img/archeos.png)
 
