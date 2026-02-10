@@ -114,8 +114,4 @@ lib/
 - In RevenueCat: create entitlement `premium`, create offering (e.g. `default`) with packages tied to `lifepods_premium_monthly` and `lifepods_premium_annual`, and connect Google Play (and later App Store) with the correct app and service account / credentials.
 - On Android: `BILLING` permission in `AndroidManifest.xml`; products created and activated in Google Play Console.
 
-For step-by-step setup (accounts, Play Console, RevenueCat dashboard, testing), see **REVENUECAT_SETUP.md**.
 
----
-
-*Last updated: February 2026*
